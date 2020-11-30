@@ -2,7 +2,7 @@
 
 ## **Wireframe**
 
-Wireframe for this project can be found [here](https://www.figma.com/file/R78ksfdvOZH4mD8A2E7R9e/SPD-Project-Sprint-1?node-id=17%3A1)
+Wireframe for this project can be found [here](https://www.figma.com/file/R78ksfdvOZH4mD8A2E7R9e/SPD-Project-Sprint-1)
 
 ## **Description**
 - An informational site that explains the belief of positive manifestation.
