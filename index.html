@@ -30,3 +30,35 @@
         <script src="./dist/bundle.js"></script>
 
     </head>
+
+    <!-- code under src - skeleton -->
+    <body id="page">
+
+        <div class="side-container">
+            <div id="instructions" class="instructions-div">
+                <h1>Instructions:</h1>
+                <div>
+                    <p class="instructions">
+                        Welcome to Type Away! A typing game where you can elevate your mood by typing uplifting words,
+                        manifesting positive energy. The goal of this game is to accurately type the falling words
+                        before it hits the bottom.
+                    </p>
+                    <p class="instructions">Press <strong>ENTER</strong> or <strong>SPACE</strong> after every words typed.</p>
+                </div>
+            </div>
+
+            <div class="audio-div">
+                <p class="music-emoji">Music:</p>
+                <audio id="game-audio" src="https://asoap-dev.s3-us-west-1.amazonaws.com/type-away/game-audio.mp3" autoplay="true" loop="loop"></audio>
+                <button id="play-audio" class="music-button-styles"><img src="./public/pause-audio.png" alt="" width="120" height="100"></button>
+                <button id="pause-audio" class="clear-music-button music-button-styles"><img src="./public/play.gif" alt="" width="120" height="100"></button>
+            </div>
+
+        </div>
+
+        <div class="game-container">
+            <canvas id="game-canvas" class="start-screen" width="1100" height="750"></canvas>
+            <input id="typing-form" disabled autofocus autocapitalize="none"></input>
+        </div>
+
+    </body>
