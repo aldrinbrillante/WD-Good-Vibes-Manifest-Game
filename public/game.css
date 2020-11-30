@@ -1,0 +1,202 @@
+
+body {
+  background: url("https://pressstart.vip/images/uploads/assets/cityskyline.png");
+  background-size: auto;
+  display: flex;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page {
+  margin-top: 20px;
+  /* border-top: 2px solid rgba(137, 43, 226, 0.431); */
+  /* margin-left: auto;
+  margin-right: auto; */
+        /* height: 750px; */
+    /* width: 80%; */
+}
+
+.game-container {
+    /* background: rgba(0, 255, 34, 0.075);
+    border: 2px solid rgba(137, 43, 226, 0.431);
+    display: flex; */
+    border-top: 1.5px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    width: 1100px;
+}
+
+.side-container {
+    background: rgba(0, 255, 34, 0.075);
+    background-color: transparent;
+    padding-left: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+  
+
+.instructions-btn {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #464c93; */
+  background-color: transparent;
+  font-family: "Emilys Candy", cursive;
+  font-size: 22px;
+  color: whitesmoke;
+  outline: none;
+  border: 0;
+
+}
+
+
+  
+#instructions {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  padding: 20px;
+  font-family: "Emilys Candy", cursive;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.767);
+  line-height: 1.5;
+}
+
+.instructions-div > div {
+  border: dotted 1px magenta;
+  border-radius: 15px;
+}
+
+.instructions-div > h1 {
+  font-family: "Emilys Candy", cursive;
+  font-size: 34px;
+  color: #3f0b74;
+  margin: 0;
+}
+
+
+.instructions {
+  background-image: url(gradient.png);
+  /* background-color: white;  */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  
+  -webkit-font-smoothing: antialiased; 
+
+  /* background: url(images/west.jpg) -100px -40px no-repeat; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.balloon-gif {
+  background-color: pink;
+}
+
+#typing-form {
+  font-family: "Emilys Candy", cursive;
+  letter-spacing: 2px; 
+  background-color: rgba(251, 247, 10, 0.301);
+  color: rgb(15, 15, 15);
+  position: absolute;
+  border: 0px solid blue;
+  outline: none;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-30%, -50%);
+  width: 250px;
+  height: 60px;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-size: 70px;
+  padding-right: 30px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+a > i {
+  color: #541a8be0;
+  padding: 80px 0;
+}
+
+
+a > i:hover {
+  color: khaki;
+  transition: 0.5s;
+  transition-property: color, transform;
+}
+
+
+
+/* audio*/
+
+.audio-div {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.audio-div > p {
+  padding-bottom: 15px;
+}
+
+.music-emoji {
+  font-size: 30px;
+  margin: 0;
+  font-family: "Emilys Candy", cursive;
+  letter-spacing: 2px; 
+  color: #541a8b;
+}
+
+#clear-game-pause {
+    display: none;
+}
+
+#clear-game-play {
+    display: none;
+}
+
+
+.clear-music-button {
+    display: none; 
+}
+
+#play-audio {
+  background-color: transparent;
+  display: absolute;
+  border: 0px;
+  outline: none;
+}
+
+#pause-audio {
+  background-color: transparent;
+  display: absolute;
+  border: 0px;
+  outline: none;
+}
