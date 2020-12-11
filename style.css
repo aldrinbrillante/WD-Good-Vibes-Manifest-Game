@@ -1,94 +1,60 @@
- @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+.navbar {
+    background-color: rgb(208, 118, 223);
+}
 
+.color-me {
+  color: white;
+}
 
+.bg-secondary {
+    color: white;
+}
 
+.btn-primary:hover {
+    background-color: blue;
+    color:white;
+}
 
-
-
-
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
+.jumbotron {
+    position: relative;
+    background-image: url("page1.jpg");
+    padding-top:20px;  
+    height: 100vh;
   }
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 576px) {
-  
+
+.jumbotron.text-center.hero-background-img h1{
+    font-size: 9em;
+    text-shadow: 0px 0px;
 }
 
+.jumbotron.text-center.hero-background-img h2{
+  font-size: 2em;
+  text-shadow: 0px 0px;
+}
 
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.jumbotron-background-img {
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.75;
+  color: white;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
+
+h2 {
+  text-decoration: none;
+  text-shadow: 0px 0px;
+  color: #000;
 }
 
+h3 {
+  font-size: 1.25em;
+  text-shadow: 0px 0px;
+}
 
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
-
-
-
-
-
-
-
+.phone {
+  size: 10em;
+}
