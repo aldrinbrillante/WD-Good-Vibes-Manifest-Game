@@ -1,4 +1,4 @@
-# Good-Vibes-Manifest-Game
+# Good-Vibes-Manifest-Site-plus-Game
 
 ## **Wireframe**
 
