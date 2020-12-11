@@ -17,8 +17,5 @@ Wireframe for this project can be found [here](https://www.figma.com/file/R78ksf
 
 ![Main](demo/type-away-gif.gif)
 
-<<<<<<< HEAD
+
 [<img src="demo/play-button.png">](https://aldrinbrillante.github.io/WD-Good-Vibes-Manifest-Game/game.html)
-=======
-[<img src="demo/play-button.png">](https://aldrinbrillante.github.io/WD-Good-Vibes-Manifest-Game/)
->>>>>>> b22af57b62210d41df10921d19e49ccf3d653907
