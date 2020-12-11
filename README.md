@@ -14,3 +14,7 @@ Wireframe for this project can be found [here](https://www.figma.com/file/R78ksf
 **Click** or press **enter** to play. The objective is to accurately type the words that are presented on the screen before it lands at the bottom. Press **space** or **enter** after typing every word or to clear the whole word.
 
 [<img src="demo/play-button.png">](https://aldrinbrillante.github.io/WD-Good-Vibes-Manifest-Game/)
+
+![Main](demo/type-away-gif.gif)
+
+[<img src="demo/play-button.png">](https://aldrinbrillante.github.io/WD-Good-Vibes-Manifest-Game/)
